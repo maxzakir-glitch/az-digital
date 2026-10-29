@@ -160,7 +160,7 @@ try {
   nodes=data.map(createTile);lens.append(...nodes);$('loadState').hidden=true;resize();
   await new Promise(requestAnimationFrame);
   const visible=[...lens.querySelectorAll('.tile:not([hidden]) .face>img')];
-  await Promise.race([Promise.all([...visible.map(img=>img.decode().catch(()=>{})),...[...document.querySelectorAll('.headline-script img')].map(img=>img.decode().catch(()=>{})),document.fonts.load('300 80px "AZ Condensed"'),document.fonts.load('800 100px "AZ Bold"')]),new Promise(resolve=>setTimeout(resolve,1800))]);
+  await Promise.race([Promise.all([...visible.map(img=>img.decode().catch(()=>{})),...[...document.querySelectorAll('.headline-script img')].map(img=>img.decode().catch(()=>{})),document.fonts.load('300 80px "AZ Condensed"'),document.fonts.load('400 19px "AZ Condensed"'),document.fonts.load('800 100px "AZ Bold"')]),new Promise(resolve=>setTimeout(resolve,1800))]);
   document.documentElement.classList.replace('is-loading','is-ready');
   if(reduced.matches)document.documentElement.classList.add('has-entered');
   setTimeout(()=>document.documentElement.classList.add('has-entered'),3300);

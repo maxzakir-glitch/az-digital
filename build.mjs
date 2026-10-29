@@ -1,6 +1,6 @@
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 const root=new URL('./',import.meta.url);
-const fontFiles=['assets/condensed-font.css','assets/bold-font.css'];
+const fontFiles=['assets/condensed-font.css','assets/condensed-regular-font.css','assets/bold-font.css'];
 const [html,css,source,gallery,placeholder,lettering,...fonts]=await Promise.all(['index.html','styles.css','app.js','gallery.json','assets/unavailable.svg','assets/identity-lettering.svg',...fontFiles].map(p=>readFile(new URL(p,root),'utf8')));
 const data=JSON.stringify(JSON.parse(gallery)).replaceAll('<','\\u003c');
 const app=source.replace("const response=await fetch('gallery.json');if(!response.ok)throw new Error('Gallery unavailable');data=await response.json();",`data=${data};`).replaceAll("'assets/unavailable.svg'",JSON.stringify('data:image/svg+xml,'+encodeURIComponent(placeholder)));

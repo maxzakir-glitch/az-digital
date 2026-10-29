@@ -77,3 +77,6 @@ main#explore:after{content:'';position:absolute;inset:0;background:#000;z-index:
 .headline-script{font-family:Arial,sans-serif}
 /* Tighten the original lettering against the live-text block. */
 .headline-script{top:7%}
+
+/* Signature weight only: size and composition remain unchanged. */
+.headline-support{font-weight:400}

@@ -16,7 +16,7 @@ No runtime dependencies or API keys. Set `PORT=8080` to change the local server 
 ## Typography
 
 - **Original client lettering**: only “Айдентика,” in `assets/identity-lettering.svg`, isolated from the supplied reference.
-- **Roboto Condensed Light (300)**: narrow “дизайн меню” line and thin support signature. The signature remains 19px on desktop, rather than growing with the main title.
+- **Roboto Condensed Light (300)**: narrow “дизайн меню” line and support signature (now Regular 400). The signature remains 19px on desktop, rather than growing with the main title.
 - **Manrope ExtraBold (800)**: “и фуд-фото”.
 
 Fonts are self-hosted as embedded WOFF2 data in `assets/condensed-font.css` and `assets/bold-font.css`. Their SIL Open Font License notices are included in `assets/FONT-LICENSES.txt`. Fonts came from Google Fonts. The client specifically rejected the replacement brush font and requested restoring that one word from the supplied reference. “дизайн меню”, “и фуд-фото” and the thin signature remain selectable text.
@@ -41,3 +41,5 @@ Published to the owner’s Vercel account using a standalone Drop deployment. Re
 ## Demo assets and scope
 
 This is a frontend study, not an AI generation service or the entire Krea product. `gallery.json` contains 99 image pairs and captions from the user-provided HTML. Demo images are referenced remotely from Krea’s public image CDN, not bundled or relicensed. Their rights remain with the respective owners. Replace these URLs with owned/licensed portfolio work before commercial use. An unavailable-image fallback is included.
+
+The signature uses the locally embedded `assets/condensed-regular-font.css` at weight 400, preserving its existing 19px desktop size and line breaks.
