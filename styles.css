@@ -37,3 +37,43 @@ body{min-height:calc(100svh + 160px)}main#explore{position:sticky;top:0;height:1
 @media(prefers-reduced-motion:reduce){.is-loading .project-cta{opacity:1}}
 
 .project-cta:disabled{color:#fff;cursor:default}.project-cta:disabled:hover{background:transparent;box-shadow:none;border-color:#ffffffe6}
+
+/* Client-supplied typographic artwork, traced from the reference (not a guessed font). */
+.intro .headline-composition{width:min(740px,76vw);max-width:none;margin:0;padding:0;line-height:0;letter-spacing:normal;font-size:0;text-shadow:none}
+.headline-composition .hero-word{display:block;width:100%;line-height:0}.headline-art{display:block;width:100%;height:auto;user-select:none;pointer-events:none}
+.intro .project-cta{margin-top:26px}.intro{padding:24px}
+@media(max-width:600px){.intro .headline-composition{width:calc(100vw - 36px);max-width:440px;font-size:0;line-height:0}.intro .project-cta{margin-top:34px}.intro{padding:20px 18px}}
+
+/* One shared camera move: image wall AND typography recede together. */
+main#explore{isolation:isolate;background:#030504}
+.gallery-section{transform-origin:50% 50%;backface-visibility:hidden}
+.is-loading .gallery-section{transform:perspective(1800px) rotateX(8deg) rotateZ(-45deg) scale(4.1);filter:blur(24px)}
+.is-ready .gallery-section{animation:scene-pullback 3100ms cubic-bezier(.22,.61,.36,1) both;will-change:transform,filter}
+.is-loading .wall,.is-ready .wall{opacity:1;animation:none!important}
+.is-loading .hero-word,.is-ready .hero-word,.is-loading .project-cta,.is-ready .project-cta,.is-loading .project-cta:disabled{opacity:1;animation:none!important;filter:none;transform:none}
+main#explore:after{content:'';position:absolute;inset:0;background:#000;z-index:40;pointer-events:none;opacity:0}
+.is-loading main#explore:after{opacity:1}.is-ready main#explore:after{animation:scene-nightfall 2800ms ease-out both}
+.is-ready:not(.has-entered) .wall{pointer-events:none}.has-entered .gallery-section{will-change:auto}
+@keyframes scene-pullback{from{transform:perspective(1800px) rotateX(8deg) rotateZ(-45deg) scale(4.1);filter:blur(24px)}to{transform:perspective(1800px) rotateX(0deg) rotateZ(0deg) scale(1);filter:blur(0px)}}
+@keyframes scene-nightfall{0%{opacity:.98}15%{opacity:.82}55%{opacity:.27}100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.is-loading .gallery-section,.is-ready .gallery-section{transform:none;filter:none;animation:none!important}.is-loading main#explore:after,.is-ready main#explore:after{opacity:0;animation:none!important}.is-ready:not(.has-entered) .wall{pointer-events:auto}}
+
+/* Real selectable text: locally embedded Cyrillic webfonts, no heading image. */
+.intro .headline-composition{position:relative;container-type:inline-size;width:min(960px,86vw);aspect-ratio:459/278;max-width:none;font-size:0;line-height:1;overflow:visible;text-shadow:0 2px 24px #0003}
+.headline-composition>span{position:absolute;display:block;color:#fff;font-style:normal}
+.headline-script{left:1%;top:-8%;font-family:'Comforter Brush',cursive;font-weight:400;font-size:29.8cqw;line-height:1;letter-spacing:-.25cqw;white-space:nowrap;transform:rotate(-6deg);transform-origin:50% 50%}
+.headline-menu{left:45.5%;top:44%;font-family:'AZ Condensed',Arial,sans-serif;font-weight:300;font-size:9cqw;line-height:1;letter-spacing:-.18cqw;white-space:nowrap}
+.headline-food{left:33.2%;top:60%;font-family:'AZ Bold',Arial,sans-serif;font-weight:800;font-size:10.5cqw;line-height:1.05;letter-spacing:-.4cqw;white-space:nowrap}
+.headline-swish{position:absolute;left:7%;top:78%;width:51%;height:auto;color:#fff}
+.headline-support{left:66.3%;top:81%;font-family:'AZ Condensed',Arial,sans-serif;font-weight:300;font-size:19px;line-height:1.5;letter-spacing:2.8px;text-transform:uppercase;text-align:left;white-space:nowrap}
+.project-cta{font-family:Arial,sans-serif;font-weight:500;margin-top:24px!important;transition:background-color .35s ease,color .35s ease,border-color .35s ease,box-shadow .35s ease}
+.project-cta:hover,.project-cta:disabled:hover{background:#fff;color:#101110;border-color:#fff;box-shadow:none;cursor:pointer}
+@media(max-width:600px){.intro .headline-composition{width:calc(100vw - 24px);max-width:450px;aspect-ratio:459/278}.headline-support{font-size:11px;font-weight:300;line-height:1.5;letter-spacing:1.2px}.intro .project-cta{margin-top:36px!important}.intro{padding:20px 12px}}
+.headline-composition>span{pointer-events:auto;user-select:text}.headline-swish{pointer-events:none}
+
+/* Requested original brush lettering for this word only; all other lines stay live text. */
+.headline-script{left:0;top:-4%;width:100%;font-size:0;line-height:0;letter-spacing:normal;transform:none}
+.headline-script img{display:block;width:100%;height:auto;user-select:none}
+.headline-script{font-family:Arial,sans-serif}
+/* Tighten the original lettering against the live-text block. */
+.headline-script{top:7%}

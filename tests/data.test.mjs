@@ -18,3 +18,10 @@ test('hero stays clean and headline is inside the gallery',async()=>{
  assert.ok(!html.includes('class="bottom-bar"'));assert.ok(!html.includes('class="wall-note"'));assert.ok(!html.includes('class="detail-hint"'));
  const css=await readFile(new URL('../styles.css',import.meta.url),'utf8');assert.ok(css.includes('@keyframes word-resolve'));assert.ok(css.includes('.header.header--visible'));
 });
+test('only the requested brush word is artwork; other lines are live text',async()=>{
+ const html=await readFile(new URL('../index.html',import.meta.url),'utf8');
+ const heading=html.match(/<h1\b[\s\S]*?<\/h1>/)[0];assert.equal((heading.match(/<img\b/g)||[]).length,1);assert.ok(heading.includes('assets/identity-lettering.svg'));
+ assert.ok(heading.includes('headline-script'));assert.ok(heading.includes('Для ресторанов'));
+ assert.ok(!html.includes('INDEPENDENT CREATIVE STUDIO'));
+ for(const f of ['condensed','bold']){const css=await readFile(new URL(`../assets/${f}-font.css`,import.meta.url),'utf8');assert.ok(css.includes('data:font/woff2;base64,'));}
+});

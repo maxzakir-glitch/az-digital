@@ -1,61 +1,43 @@
 # AZ Digital
 
-A responsive, standalone recreation of the **interactive image wall** in the supplied Krea reference, branded for AZ Digital. No framework, build step, API key or runtime package dependencies.
+Full-screen creative-studio hero inspired by the supplied interaction reference. Only the brush-script word “Айдентика” uses the original lettering artwork, as explicitly requested by the client. All other heading lines are real HTML text.
 
-## Run
-
-```sh
-npm install
-npm run dev
-# http://localhost:3000
-```
-
-Requires Node.js 20+. `PORT=8080 npm start` selects another port. For a static host, publish this folder (entry point `index.html`); do not open with `file://` because the gallery data loads with fetch.
+## Run and build
 
 ```sh
+npm run dev       # http://localhost:3000 (Node.js 20+)
 npm run check
 npm test
+npm run build     # standalone dist/index.html
 ```
 
-## Interactions
+No runtime dependencies or API keys. Set `PORT=8080` to change the local server port. `vercel.json` configures the static build. The generated page embeds application code, data and fonts; only demo images use an external CDN.
 
-- 99 image pairs arranged in a staggered, infinitely wrapping 11 × 9 wall.
-- Soft lens falloff scales perimeter cards uniformly, preserving image proportions.
-- Drag to pan with requestAnimationFrame easing; time-based, damped pointer parallax (no direct pointer-to-transform jumps).
-- Hover a central card for a pointer-controlled before/after wipe.
-- Click/tap a card for animated expansion into an accessible native dialog.
-- Drag the comparison slider; use previous/next buttons or arrow keys to browse. Escape closes the dialog and restores focus.
-- Horizontal touch swipes pan; vertical gestures retain page scrolling.
-- Responsive mobile layout, theme switch (system preference respected initially), keyboard access and reduced-motion support.
+## Typography
 
-## Files
+- **Original client lettering**: only “Айдентика,” in `assets/identity-lettering.svg`, isolated from the supplied reference.
+- **Roboto Condensed Light (300)**: narrow “дизайн меню” line and thin support signature. The signature remains 19px on desktop, rather than growing with the main title.
+- **Manrope ExtraBold (800)**: “и фуд-фото”.
 
-- `app.js`: wall geometry, pan input, reveal and dialogs.
-- `styles.css`: visual system, responsive layout and animation.
-- `gallery.json`: image pairs and captions extracted from the user-provided HTML.
-- `server.mjs`: dependency-free local static server.
-- `tests/data.test.mjs`: data and DOM integrity checks.
+Fonts are self-hosted as embedded WOFF2 data in `assets/condensed-font.css` and `assets/bold-font.css`. Their SIL Open Font License notices are included in `assets/FONT-LICENSES.txt`. Fonts came from Google Fonts. The client specifically rejected the replacement brush font and requested restoring that one word from the supplied reference. “дизайн меню”, “и фуд-фото” and the thin signature remain selectable text.
 
-## Hosting
+## Entrance and interactions
 
-Run `npm run build` to generate a standalone `dist/index.html` with embedded styles, application code, gallery data and fallback. Deploy `dist/` to any static host. `vercel.json` configures the build automatically. Alternatively run `npm start` on a Node host. Repository creation does not automatically publish a live website.
+- A single shared camera pullback moves the wall and text together: 4.1× zoom, −45° rotation and slight perspective tilt settle to the final composition over 3.1 seconds.
+- Whole-scene blur and a black veil clear smoothly during that motion. Reduced-motion users get the final state immediately.
+- Image cards preserve their aspect ratios with uniform edge scaling. Pan and hover comparisons use time-based requestAnimationFrame damping, not raw pointer jumps.
+- Drag the staggered, infinitely wrapping wall. Open a card for a before/after comparison dialog with keyboard navigation.
+- Navigation starts hidden/inert and appears after 24px of scrolling. There are no bottom instructions or information bars.
+- The centered transparent CTA fills completely white, with dark text, on hover.
 
-## Scope and assets
+**Pending contact configuration:** the owner has not yet supplied a Telegram, WhatsApp or email destination for “Обсудить проект”. The CTA’s visual hover is active, but no contact navigation or submission is wired. No contact endpoint or destination is invented and no visitor data is collected.
 
-This is an independent frontend study of the specific wall animation, **not the entire Krea app and not an AI generation service**. The original website's exact runtime implementation was not copied; the lens and interactions were implemented independently based on the provided HTML and observed behavior.
+## Deployment
 
-Demo images are referenced remotely from Krea's public image CDN, as in the supplied reference. They are not bundled or relicensed. Rights remain with their respective owners; replace the URLs in `gallery.json` with assets you own or are licensed to use before commercial publication. CDN availability is external; an unavailable-image fallback is included. UI source code is supplied for this project without claiming rights to demo imagery, Krea trademarks or third-party content.
+Public site: https://az-digital.vercel.app
 
-## Hero layout
-The client headline is centered over a full-bleed, darkened image wall. Uniform scaling avoids stretched edge images. Reveal and pointer motion share a time-based requestAnimationFrame loop; reduced-motion disables interpolation.
+Published to the owner’s Vercel account using a standalone Drop deployment. Repository changes require another deployment unless Git integration is later enabled.
 
-## Entrance animation
-The full-viewport wall softly settles from scale 1.16 to 1 over 2.1 seconds. Headline groups appear through an 18px blur with a 90ms stagger and ease-out. The wall waits briefly for visible preview images before starting; there is a timeout so a slow CDN never blocks the heading. Reduced-motion users see the final state immediately.
+## Demo assets and scope
 
-Public production site: https://az-digital.vercel.app (published via Vercel Drop; repository changes require a new deployment unless Git integration is configured).
-
-## Navigation
-The hero is a pinned, full-viewport opening screen. Navigation is hidden and inert initially; scrolling more than 24px reveals the fixed header. There are no interaction hints or bottom information bars.
-
-## Project inquiry CTA
-The centered outline CTA is styled and intentionally disabled until the owner supplies the Telegram, WhatsApp or email destination. No contact endpoint is invented and no visitor details are collected. Headline uses Manrope ExtraBold (800), with Manrope 600 for the CTA, served from Google Fonts.
+This is a frontend study, not an AI generation service or the entire Krea product. `gallery.json` contains 99 image pairs and captions from the user-provided HTML. Demo images are referenced remotely from Krea’s public image CDN, not bundled or relicensed. Their rights remain with the respective owners. Replace these URLs with owned/licensed portfolio work before commercial use. An unavailable-image fallback is included.

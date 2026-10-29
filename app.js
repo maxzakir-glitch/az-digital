@@ -5,6 +5,7 @@ window.addEventListener('scroll',syncHeader,{passive:true});syncHeader();
 const wall = $('wall'), lens = $('lens'), dialog = $('detailDialog');
 document.documentElement.classList.add('is-loading');
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+document.querySelector('.gallery-section').addEventListener('animationend',e=>{if(e.animationName==='scene-pullback')document.documentElement.classList.add('has-entered');});
 let data = [], nodes = [], width = 0, height = 0, cardW = 260, cardH = 173;
 let x = 0, y = 0, targetX = 0, targetY = 0, frame = 0, dragging = null, moved = false, selected = 0, lastFocus = null;
 const columns = 11, rows = 9;
@@ -159,6 +160,10 @@ try {
   nodes=data.map(createTile);lens.append(...nodes);$('loadState').hidden=true;resize();
   await new Promise(requestAnimationFrame);
   const visible=[...lens.querySelectorAll('.tile:not([hidden]) .face>img')];
-  await Promise.race([Promise.all([...visible.map(img=>img.decode().catch(()=>{})),document.fonts.load('800 64px Manrope'),document.fonts.load('600 16px Manrope')]),new Promise(resolve=>setTimeout(resolve,1800))]);
+  await Promise.race([Promise.all([...visible.map(img=>img.decode().catch(()=>{})),...[...document.querySelectorAll('.headline-script img')].map(img=>img.decode().catch(()=>{})),document.fonts.load('300 80px "AZ Condensed"'),document.fonts.load('800 100px "AZ Bold"')]),new Promise(resolve=>setTimeout(resolve,1800))]);
   document.documentElement.classList.replace('is-loading','is-ready');
-} catch(error) { $('loadState').textContent='Не удалось загрузить галерею. Обновите страницу.'; console.error(error); document.documentElement.classList.replace('is-loading','is-ready'); }
+  if(reduced.matches)document.documentElement.classList.add('has-entered');
+  setTimeout(()=>document.documentElement.classList.add('has-entered'),3300);
+} catch(error) { $('loadState').textContent='Не удалось загрузить галерею. Обновите страницу.'; console.error(error); document.documentElement.classList.replace('is-loading','is-ready');
+  if(reduced.matches)document.documentElement.classList.add('has-entered');
+  setTimeout(()=>document.documentElement.classList.add('has-entered'),3300); }
