@@ -1,0 +1,992 @@
+[
+  {
+    "id": 0,
+    "category": "Architecture",
+    "title": "Sketch to rainy night",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-07-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-07-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-07-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-07-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 1,
+    "category": "Marketing",
+    "title": "Peach to pasta",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-10-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-10-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-10-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-10-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 2,
+    "category": "Film",
+    "title": "Day for night",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-17-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-17-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-17-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-17-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 3,
+    "category": "Games",
+    "title": "Blockout to boss arena",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-05-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-05-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-05-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-05-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 4,
+    "category": "Marketing",
+    "title": "Billboard, re-skinned",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-14-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-14-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-14-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-14-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 5,
+    "category": "Photography",
+    "title": "Storm-lit sunset",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-16-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-16-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-16-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-16-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 6,
+    "category": "Games",
+    "title": "Concept to full character sheet",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-10-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-10-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-10-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-10-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 7,
+    "category": "Architecture",
+    "title": "Tower massing to photoreal skyline",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-04-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-04-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-04-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-04-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 8,
+    "category": "Architecture",
+    "title": "Line sketch to glass-block townhouse",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-12-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-12-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-12-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-12-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 9,
+    "category": "E-commerce",
+    "title": "Bag on model leaving the shop",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-21-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-21-ref-3-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-21-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-21-ref-3-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 10,
+    "category": "Personal",
+    "title": "Selfie to greetings-from postcard",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-05-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-05-ref-2-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-05-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-05-ref-2-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 11,
+    "category": "Photography",
+    "title": "Golden-hour relight",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-12-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-12-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-12-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-12-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 12,
+    "category": "Games",
+    "title": "Rainy night mood pass",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-07-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-07-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-07-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-07-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 13,
+    "category": "Personal",
+    "title": "Plus one dalmatian",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-19-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-19-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-19-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-19-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 14,
+    "category": "Architecture",
+    "title": "Render to built pavilion",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-24-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-24-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-24-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-24-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 15,
+    "category": "Games",
+    "title": "Blockout to flooded city",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-02-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-02-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-02-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-02-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 16,
+    "category": "Photography",
+    "title": "Three food shots into one overhead tablescape",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-13-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-13-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-13-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-13-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 17,
+    "category": "E-commerce",
+    "title": "Autumn re-skin of a summer lifestyle image",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-12-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-12-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-12-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-12-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 18,
+    "category": "Personal",
+    "title": "Add the missing friend to the café table",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-11-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-11-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-11-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-11-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 19,
+    "category": "Fashion",
+    "title": "Heels and skirt fabric swap on a legs shot",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-19-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-19-ref-2-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-19-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-19-ref-2-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 20,
+    "category": "Product",
+    "title": "Brand application on a radio and its box",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-14-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-14-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-14-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-14-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 21,
+    "category": "Marketing",
+    "title": "Film-night poster with two new images",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-41-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-41-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-41-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-41-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 22,
+    "category": "Architecture",
+    "title": "Pencil to photograph",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-09-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-09-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-09-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-09-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 23,
+    "category": "Marketing",
+    "title": "Campaign, widescreen",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-12-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-12-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-12-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-12-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 24,
+    "category": "Games",
+    "title": "Canyon to final level",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-04-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-04-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-04-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-04-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 25,
+    "category": "E-commerce",
+    "title": "Homepage collection banner",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-14-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-14-ref-4-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-14-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-14-ref-4-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 26,
+    "category": "Marketing",
+    "title": "Riso poster series: dog and cat editions",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-37-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-37-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-37-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-37-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 27,
+    "category": "Photography",
+    "title": "Colour photo to darkroom black-and-white",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-23-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-23-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-23-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-23-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 28,
+    "category": "Product",
+    "title": "Line drawing to studio render",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-02-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-02-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-02-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-02-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 29,
+    "category": "Marketing",
+    "title": "Event schedule post with mascot and header photo",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-26-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-26-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-26-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-26-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 30,
+    "category": "Marketing",
+    "title": "Campaign product swap: butter boxes in tow",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-29-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-29-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-29-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-29-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 31,
+    "category": "Marketing",
+    "title": "Print ad product and brand swap",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-33-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-33-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-33-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-33-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 32,
+    "category": "Product",
+    "title": "Rebrand illustrated tins",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-06-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-06-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-06-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-06-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 33,
+    "category": "Personal",
+    "title": "Royal oil portrait with my pets",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-17-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-17-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-17-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-17-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 34,
+    "category": "Product",
+    "title": "Spray bottle presentation sheet",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-07-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-07-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-07-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-07-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 35,
+    "category": "Games",
+    "title": "Graphite creature to rendered beast at the gate",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-18-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-18-ref-2-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-18-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-18-ref-2-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 36,
+    "category": "Film",
+    "title": "Recast a ferry shot",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-05-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-05-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-05-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-05-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 37,
+    "category": "E-commerce",
+    "title": "Packshot to café lifestyle",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-18-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-18-ref-2-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-18-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-18-ref-2-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 38,
+    "category": "Product",
+    "title": "Product shot on water",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-shoes-water-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-shoes-water-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-shoes-water-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-shoes-water-ref-1-png-256.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 39,
+    "category": "Fashion",
+    "title": "Sweater from a street editorial to a product flat",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-02-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-02-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-02-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-02-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 40,
+    "category": "Marketing",
+    "title": "Blank shopfront branded from the packaging",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-45-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-45-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-45-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-45-ref-1-png-256.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 41,
+    "category": "Product",
+    "title": "Dieline to stacked shelf shot",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-04-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-04-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-04-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-04-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 42,
+    "category": "Architecture",
+    "title": "Daylight facade to blue hour",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-20-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-20-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-20-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-20-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 43,
+    "category": "Marketing",
+    "title": "Shopfront rebranded for a coffee brand",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-46-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-46-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-46-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-46-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 44,
+    "category": "Personal",
+    "title": "Cat stepped into a retro illustration",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-04-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-04-ref-2-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-04-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-04-ref-2-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 45,
+    "category": "Fashion",
+    "title": "Two-look exploration board",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-12-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-12-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-12-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-12-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 46,
+    "category": "E-commerce",
+    "title": "Thrift-cart snapshot to studio packshot",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-01-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-01-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-01-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-01-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 47,
+    "category": "Personal",
+    "title": "Friends and greyhound in matching glam",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-10-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-10-ref-3-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-10-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-10-ref-3-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 48,
+    "category": "Photography",
+    "title": "Day street corner to rainy night",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-24-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-24-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-24-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-24-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 49,
+    "category": "E-commerce",
+    "title": "View-it-in-your-room furniture placement",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-07-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-07-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-07-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-07-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 50,
+    "category": "Fashion",
+    "title": "Full outfit try-on from separates",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-01-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-01-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-01-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-01-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 51,
+    "category": "Photography",
+    "title": "Clear a crowd, keep the hero",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-03-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-03-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-03-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-03-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 52,
+    "category": "Architecture",
+    "title": "Stripped room to finished bedroom",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-16-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-16-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-16-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-16-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 53,
+    "category": "Marketing",
+    "title": "Print ad extended into a three-ad series",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-34-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-34-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-34-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-34-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 54,
+    "category": "Marketing",
+    "title": "Brand flat lay extended with new items",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-49-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-49-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-49-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-49-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 55,
+    "category": "Film",
+    "title": "Storyboard panel to cinematic frame",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-01-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-01-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-01-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-01-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 56,
+    "category": "Architecture",
+    "title": "Townhouse sketch to street photograph",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-06-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-06-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-06-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-06-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 57,
+    "category": "Personal",
+    "title": "Group photo to summer gig poster",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-22-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-22-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-22-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-22-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 58,
+    "category": "Photography",
+    "title": "Lakeside picnic moved onto tulip rows",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-21-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-21-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-21-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-21-ref-1-png-256.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 59,
+    "category": "Marketing",
+    "title": "Sandwich poster to hot-dog poster with drip lettering",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-08-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-08-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-08-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-08-ref-1-png-256.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 60,
+    "category": "Marketing",
+    "title": "Swiss poster in four colourways",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-39-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-39-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-39-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-39-ref-1-png-256.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 61,
+    "category": "Photography",
+    "title": "Two portraits combined into one candid scene",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-07-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-07-ref-3-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-07-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-07-ref-3-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 62,
+    "category": "Marketing",
+    "title": "Campaign placed on a rooftop billboard",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-11-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-11-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-11-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-11-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 63,
+    "category": "Personal",
+    "title": "Add three friends to a boat selfie",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-06-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-06-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-06-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-06-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 64,
+    "category": "Architecture",
+    "title": "Furnished plan to photoreal cutaway",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-14-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-14-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-14-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-14-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 65,
+    "category": "Marketing",
+    "title": "Giant-product campaign swap",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-32-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-32-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-32-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-32-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 66,
+    "category": "Marketing",
+    "title": "Poster remade with a new photograph",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-05-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-05-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-05-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-05-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 67,
+    "category": "E-commerce",
+    "title": "Coffee starter bundle hero",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-24-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-24-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-24-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-24-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 68,
+    "category": "Photography",
+    "title": "Sky replacement with matched light",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-18-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-18-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-18-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-18-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 69,
+    "category": "Fashion",
+    "title": "Thrift finds to golden-hour lookbook",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-18-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-18-ref-3-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-18-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-18-ref-3-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 70,
+    "category": "Architecture",
+    "title": "Clay villa to winter blue hour",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-03-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-03-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-03-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-03-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 71,
+    "category": "Fashion",
+    "title": "Sketched coat realised in velvet on the street",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-07-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-07-ref-3-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-07-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-07-ref-3-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 72,
+    "category": "Fashion",
+    "title": "Three separately shot models on one bench",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-20-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-20-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-20-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-20-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 73,
+    "category": "Personal",
+    "title": "Mirror-selfie remake with a new look",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-13-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-13-ref-3-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-13-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-13-ref-3-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 74,
+    "category": "E-commerce",
+    "title": "Hanger shot to invisible mannequin with visible lining",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-04-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-04-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-04-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-04-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 75,
+    "category": "Product",
+    "title": "Board re-skin with a new concept",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-22-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-22-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-22-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-22-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 76,
+    "category": "Architecture",
+    "title": "Arched building render to street photograph",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-25-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-25-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-25-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-25-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 77,
+    "category": "E-commerce",
+    "title": "PDP on-model shot from collage pieces",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-08-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-08-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-08-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-08-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 78,
+    "category": "E-commerce",
+    "title": "Marketplace main image from a styled shot",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-23-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-23-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-23-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-23-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 79,
+    "category": "Film",
+    "title": "Costume test on location under neon",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-06-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-06-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-06-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-06-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 80,
+    "category": "Film",
+    "title": "Backlot to finished location shot",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-14-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-14-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-14-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-flm-14-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 81,
+    "category": "Personal",
+    "title": "Camera roll to an illustrated city poster",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-25-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-25-ref-4-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-25-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-25-ref-4-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 82,
+    "category": "Architecture",
+    "title": "Raw kitchen to finished stainless kitchen",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-18-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-18-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-18-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-18-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 83,
+    "category": "Fashion",
+    "title": "Illustration to look on a seated model",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-10-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-10-ref-3-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-10-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-10-ref-3-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 84,
+    "category": "Personal",
+    "title": "Me as a 3D cartoon character sheet",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-15-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-15-ref-2-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-15-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-con-15-ref-2-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 85,
+    "category": "Product",
+    "title": "Line extension: new flavour box",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-08-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-08-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-08-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-08-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 86,
+    "category": "Fashion",
+    "title": "Pose change that preserves the outfit",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-16-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-16-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-16-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-fas-16-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 87,
+    "category": "Marketing",
+    "title": "Shopfront and carrier bag in one system",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-48-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-48-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-48-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-48-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 88,
+    "category": "Marketing",
+    "title": "Swiss-style poster with a new product, in situ",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-19-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-19-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-19-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-mkt-19-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 89,
+    "category": "Games",
+    "title": "Equip the knight: vehicle and weapon in one style",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-24-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-24-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-24-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-24-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 90,
+    "category": "E-commerce",
+    "title": "Earrings on model with warm side light",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-10-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-10-ref-2-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-10-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-10-ref-2-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 91,
+    "category": "Photography",
+    "title": "Model digital to editorial portrait",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-25-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-25-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-25-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-25-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 92,
+    "category": "E-commerce",
+    "title": "Bathroom shelf staging for a hero bottle",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-22-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-22-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-22-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-ecm-22-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 93,
+    "category": "Architecture",
+    "title": "Collage render to photograph with people",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-23-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-23-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-23-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-23-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 94,
+    "category": "Games",
+    "title": "Top-down fortress blockout to illustrated map tile",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-06-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-06-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-06-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-gam-06-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 95,
+    "category": "Architecture",
+    "title": "Timber room to steel and blue plaster",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-22-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-22-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-22-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-arc-22-ref-1-png.webp",
+    "position": "50% 30%"
+  },
+  {
+    "id": 96,
+    "category": "Photography",
+    "title": "Match a three-frame series to one grade",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-06-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-06-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-06-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-pho-06-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 97,
+    "category": "Product",
+    "title": "Two-vase family in three matched views",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-20-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-20-ref-1-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-20-output-png-512.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-20-ref-1-png.webp",
+    "position": "50% 50%"
+  },
+  {
+    "id": 98,
+    "category": "Product",
+    "title": "Camera concept hero shot",
+    "after": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-11-output-png-512.webp",
+    "before": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-11-ref-3-png-256.webp",
+    "full": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-11-output-png-1024.webp",
+    "beforeFull": "https://optim-images.krea.ai/https---s-krea-ai-k3-presets-2026-10-08-prd-11-ref-3-png.webp",
+    "position": "50% 30%"
+  }
+]
