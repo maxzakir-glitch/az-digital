@@ -56,3 +56,6 @@ Public production site: https://az-digital.vercel.app (published via Vercel Drop
 
 ## Navigation
 The hero is a pinned, full-viewport opening screen. Navigation is hidden and inert initially; scrolling more than 24px reveals the fixed header. There are no interaction hints or bottom information bars.
+
+## Project inquiry CTA
+The centered outline CTA is styled and intentionally disabled until the owner supplies the Telegram, WhatsApp or email destination. No contact endpoint is invented and no visitor details are collected. Headline uses Manrope ExtraBold (800), with Manrope 600 for the CTA, served from Google Fonts.

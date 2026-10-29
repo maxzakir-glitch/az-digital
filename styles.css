@@ -26,3 +26,14 @@ body{min-height:calc(100svh + 160px)}main#explore{position:sticky;top:0;height:1
 .header.header--visible{opacity:1;transform:translateY(0);filter:blur(0);pointer-events:auto}
 .intro{padding-top:24px;padding-bottom:24px}.intro .overline{margin-bottom:28px}.intro-text{margin-top:28px}
 @media(max-width:600px){.header{inset:0 12px auto;padding:0 12px;gap:10px}.intro{padding:24px 26px}.header nav button{font-size:14px}.intro h1{font-size:37px}.intro .overline{margin-bottom:24px}.intro-text{margin-top:24px}}
+
+@font-face{font-family:Manrope;font-style:normal;font-weight:800;font-display:swap;src:url(https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F.ttf) format('truetype')}
+@font-face{font-family:Manrope;font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf) format('truetype')}
+.intro h1{font-family:Manrope,Arial,sans-serif;font-weight:800;font-size:clamp(42px,4.5vw,70px);line-height:1.12;letter-spacing:-2.8px;max-width:980px}
+.project-cta{font-family:Manrope,Arial,sans-serif;font-weight:600;font-size:16px;line-height:1.3;min-height:58px;padding:17px 34px;margin:36px auto 0;border:1.5px solid #ffffffe6;border-radius:999px;background:transparent;color:#fff;pointer-events:auto;transition:background-color .35s ease,border-color .35s ease,box-shadow .35s ease;cursor:pointer}
+.project-cta:hover{background:#ffffff12;border-color:#fff;box-shadow:0 0 0 5px #ffffff08}.project-cta:active{background:#ffffff20}.project-cta:focus-visible{outline:2px solid #fff;outline-offset:6px}
+.is-loading .project-cta{opacity:0}.is-ready .project-cta{animation:soft-arrive 1400ms ease 650ms both}
+@media(max-width:600px){.intro h1{font-size:36px;line-height:1.13;letter-spacing:-1.4px;max-width:350px}.intro .overline{font-size:9px;letter-spacing:1.3px}.project-cta{font-size:15px;min-height:54px;padding:15px 30px;margin-top:30px}.intro{padding:24px 22px}}
+@media(prefers-reduced-motion:reduce){.is-loading .project-cta{opacity:1}}
+
+.project-cta:disabled{color:#fff;cursor:default}.project-cta:disabled:hover{background:transparent;box-shadow:none;border-color:#ffffffe6}

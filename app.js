@@ -159,6 +159,6 @@ try {
   nodes=data.map(createTile);lens.append(...nodes);$('loadState').hidden=true;resize();
   await new Promise(requestAnimationFrame);
   const visible=[...lens.querySelectorAll('.tile:not([hidden]) .face>img')];
-  await Promise.race([Promise.all(visible.map(img=>img.decode().catch(()=>{}))),new Promise(resolve=>setTimeout(resolve,1400))]);
+  await Promise.race([Promise.all([...visible.map(img=>img.decode().catch(()=>{})),document.fonts.load('800 64px Manrope'),document.fonts.load('600 16px Manrope')]),new Promise(resolve=>setTimeout(resolve,1800))]);
   document.documentElement.classList.replace('is-loading','is-ready');
 } catch(error) { $('loadState').textContent='Не удалось загрузить галерею. Обновите страницу.'; console.error(error); document.documentElement.classList.replace('is-loading','is-ready'); }
