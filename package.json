@@ -4,6 +4,14 @@
   "private": true,
   "type": "module",
   "description": "An interactive creative wall inspired by the Krea gallery",
-  "scripts": { "dev": "node server.mjs", "start": "node server.mjs", "check": "node --check app.js && node --check server.mjs", "test": "node --test tests/data.test.mjs" },
-  "engines": { "node": ">=20" }
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check server.mjs",
+    "test": "node --test tests/data.test.mjs",
+    "build": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }

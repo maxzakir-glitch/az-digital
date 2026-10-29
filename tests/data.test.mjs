@@ -11,3 +11,10 @@ test('every interactive HTML target is unique',async()=>{
  const html=await readFile(new URL('../index.html',import.meta.url),'utf8');const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);assert.equal(ids.length,new Set(ids).size);
  const js=await readFile(new URL('../app.js',import.meta.url),'utf8');for(const m of js.matchAll(/\$\('([^']+)'\)/g))assert.ok(ids.includes(m[1]),`Missing #${m[1]}`);
 });
+
+test('hero stays clean and headline is inside the gallery',async()=>{
+ const html=await readFile(new URL('../index.html',import.meta.url),'utf8');
+ assert.ok(html.indexOf('class="gallery-section"')<html.indexOf('id="headline"'));
+ assert.ok(!html.includes('class="bottom-bar"'));assert.ok(!html.includes('class="wall-note"'));assert.ok(!html.includes('class="detail-hint"'));
+ const css=await readFile(new URL('../styles.css',import.meta.url),'utf8');assert.ok(css.includes('@keyframes word-resolve'));assert.ok(css.includes('.header.header--visible'));
+});

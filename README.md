@@ -20,8 +20,8 @@ npm test
 ## Interactions
 
 - 99 image pairs arranged in a staggered, infinitely wrapping 11 × 9 wall.
-- Lens distortion shrinks perimeter cards independently on each axis.
-- Drag to pan with requestAnimationFrame easing; subtle pointer parallax.
+- Soft lens falloff scales perimeter cards uniformly, preserving image proportions.
+- Drag to pan with requestAnimationFrame easing; time-based, damped pointer parallax (no direct pointer-to-transform jumps).
 - Hover a central card for a pointer-controlled before/after wipe.
 - Click/tap a card for animated expansion into an accessible native dialog.
 - Drag the comparison slider; use previous/next buttons or arrow keys to browse. Escape closes the dialog and restores focus.
@@ -38,10 +38,21 @@ npm test
 
 ## Hosting
 
-Deploy as a static site on a host such as GitHub Pages, Netlify or Vercel (no build command; output directory `.`). Alternatively run `npm start` on a Node host. Repository creation does not automatically publish a live website.
+Run `npm run build` to generate a standalone `dist/index.html` with embedded styles, application code, gallery data and fallback. Deploy `dist/` to any static host. `vercel.json` configures the build automatically. Alternatively run `npm start` on a Node host. Repository creation does not automatically publish a live website.
 
 ## Scope and assets
 
 This is an independent frontend study of the specific wall animation, **not the entire Krea app and not an AI generation service**. The original website's exact runtime implementation was not copied; the lens and interactions were implemented independently based on the provided HTML and observed behavior.
 
 Demo images are referenced remotely from Krea's public image CDN, as in the supplied reference. They are not bundled or relicensed. Rights remain with their respective owners; replace the URLs in `gallery.json` with assets you own or are licensed to use before commercial publication. CDN availability is external; an unavailable-image fallback is included. UI source code is supplied for this project without claiming rights to demo imagery, Krea trademarks or third-party content.
+
+## Hero layout
+The client headline is centered over a full-bleed, darkened image wall. Uniform scaling avoids stretched edge images. Reveal and pointer motion share a time-based requestAnimationFrame loop; reduced-motion disables interpolation.
+
+## Entrance animation
+The full-viewport wall softly settles from scale 1.16 to 1 over 2.1 seconds. Headline groups appear through an 18px blur with a 90ms stagger and ease-out. The wall waits briefly for visible preview images before starting; there is a timeout so a slow CDN never blocks the heading. Reduced-motion users see the final state immediately.
+
+Public production site: https://az-digital.vercel.app (published via Vercel Drop; repository changes require a new deployment unless Git integration is configured).
+
+## Navigation
+The hero is a pinned, full-viewport opening screen. Navigation is hidden and inert initially; scrolling more than 24px reveals the fixed header. There are no interaction hints or bottom information bars.
